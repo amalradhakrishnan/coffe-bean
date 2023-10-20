@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+.navbar-text{
+    background-color: rgb(220, 153, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+    height: 140px;
+    top: 0;
+}
+.navbar-text p{
+    font-family: 'Black Ops One', cursive;
+    font-size: 700%;
+    margin-right: 100px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
+    margin-top: 0; 
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    align-items: center;
+    align-content: center;
+    margin-left: 150px;
+}
+.nav1 {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0px;
+    color: rgb(48, 31, 19);
+    background-color: rgb(220, 153, 60);
+    font-size: 16px;
+    justify-content: center;
+    height: 35px;
+}
+.nav1 p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    padding: 10px;   
+} 
+section{
+    background-color: rgb(236, 208, 118);   
+}
+section h1{
+    text-align: center;
+    font-size: 350%;
+    font-weight: 400;
+}
+.container {
+    border: 3px inset black;
+    justify-content: center;
+}
+.container p{
+   
+    font-size: 130%;
+}
+section h2{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+section p{
+    margin: 25px;
+    font-size: 130%;
+}
+section ul{
+    margin: 25px;
+    
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+section ul li{
+    margin-top: 20px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    font-size: 130%;
+    margin: 20px;    
+}
+#one h2{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+#one {
+    margin-top: 0;
+    background-color: rgb(236, 208, 118);
+    
+}
+.starbucks{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+    
+}
+.star{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.starbucks img{
+    border-radius: 30px;
+}
+.DunkinsDonuts{
+    display: flex;
+}
+.dunk{
+    margin-left: 170px;
+}
+.DunkinsDonuts img{
+    border-radius:30px ;
+    width: 400px;
+    height: 300px;
+    margin-right: 190px;
+}
+.peetscoffee{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+    
+}
+.peets{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.peetscoffee img{
+    border-radius: 30px;
+    width: px;
+}
+.COSTACOFFEE{
+    display: flex;
+}
+.costa{
+    margin-left: 170px;
+}
+.COSTACOFFEE img{
+    border-radius:30px ;
+    width: 400px;
+    height: 300px;
+    margin-right: 190px;
+}
+.McCAFE{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;   
+}
+.mc{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.McCAFE img{
+    border-radius: 30px;
+    width: 270px;
+}
+#gallery{
+    overflow-x: hidden;
+    background-color: rgb(220, 153, 60);
+}
+.gall{
+    justify-content: space-between;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+.gall img{
+    width: 290px;
+    height: 280px;
+    margin: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.gall img:hover{
+    box-shadow: 2px 2px 8px 5px rgb(64, 63, 63);
+}
+#query{
+    background-color: rgb(236, 208, 118);
+}
+#query h2{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+.container-md{
+    background-color: rgb(220, 153, 60);
+    border-radius: 10px;
+}
+#query button{
+    background-color: rgb(92, 53, 26);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    top: 0;
+    font-weight: bolder;
+    
+    text-shadow: 2px 3px 4px black;
+    margin-left: 80px;
+}
+#foot{
+    background-color: rgb(220, 153, 60);
+    overflow-x: hidden;
+
+}
+#foot img{
+    width: 170px;
+    margin-bottom: 20px;
+    margin-right:90px ;
+    margin-top: 80px;
+}
+#foot h1{
+    text-align: center;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+    margin-top: 30px;
+}
